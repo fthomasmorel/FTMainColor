@@ -9,12 +9,12 @@
 import Foundation
 import UIKit
 
-struct FTColor {
-    var red:CGFloat!
-    var green:CGFloat!
-    var blue:CGFloat!
+public struct FTColor {
+    public var red:CGFloat!
+    public var green:CGFloat!
+    public var blue:CGFloat!
     
-    func getUIColor() -> UIColor{
+    public func getUIColor() -> UIColor{
         return UIColor(red: self.red, green: self.green, blue: self.blue, alpha: CGFloat(1))
     }
 }

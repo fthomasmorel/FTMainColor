@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-func getMainColor(image:UIImage, withIndice k:Int) -> FTColor{
+public func getMainColor(image:UIImage, withIndice k:Int) -> FTColor{
     return getAverageColorForCluster(getClusters(image, withIndice: k).first!, withImage: image)
 }
