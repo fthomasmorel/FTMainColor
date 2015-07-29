@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 
-
 struct Cluster {
     var color:FTColor!
     var points:[CGPoint]!
