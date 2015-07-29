@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FTMainColor"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "Usefull pod designed in Swift to get the main color from an UIImage"
 
   s.license      = { :type => 'MIT' }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/fthomasmorel/FTMainColor.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/fthomasmorel/FTMainColor.git", :tag => "v1.0.2" }
 
   s.source_files  = "FTMainColor/*"
   s.framework        = 'UIKit'
