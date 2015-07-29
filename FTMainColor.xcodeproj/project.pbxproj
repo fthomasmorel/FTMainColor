@@ -12,6 +12,10 @@
 		F56C20BB1B695AC200362852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56C20B91B695AC200362852 /* Main.storyboard */; };
 		F56C20BD1B695AC200362852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56C20BC1B695AC200362852 /* Assets.xcassets */; };
 		F56C20C01B695AC200362852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56C20BE1B695AC200362852 /* LaunchScreen.storyboard */; };
+		F56C20CB1B695B2500362852 /* FTCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C20C71B695B2500362852 /* FTCluster.swift */; };
+		F56C20CC1B695B2500362852 /* FTColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C20C81B695B2500362852 /* FTColor.swift */; };
+		F56C20CD1B695B2500362852 /* FTColorsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C20C91B695B2500362852 /* FTColorsHelper.swift */; };
+		F56C20CE1B695B2500362852 /* FTMainColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C20CA1B695B2500362852 /* FTMainColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F56C20BC1B695AC200362852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56C20BF1B695AC200362852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F56C20C11B695AC200362852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56C20C71B695B2500362852 /* FTCluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTCluster.swift; sourceTree = "<group>"; };
+		F56C20C81B695B2500362852 /* FTColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTColor.swift; sourceTree = "<group>"; };
+		F56C20C91B695B2500362852 /* FTColorsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTColorsHelper.swift; sourceTree = "<group>"; };
+		F56C20CA1B695B2500362852 /* FTMainColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTMainColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,17 @@
 		F56C20B41B695AC200362852 /* FTMainColor */ = {
 			isa = PBXGroup;
 			children = (
+				F56C20CF1B695B4700362852 /* Demo */,
+				F56C20D11B695B5A00362852 /* Helper */,
+				F56C20D01B695B5200362852 /* Model */,
+				F56C20CA1B695B2500362852 /* FTMainColor.swift */,
+			);
+			path = FTMainColor;
+			sourceTree = "<group>";
+		};
+		F56C20CF1B695B4700362852 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
 				F56C20B51B695AC200362852 /* AppDelegate.swift */,
 				F56C20B71B695AC200362852 /* ViewController.swift */,
 				F56C20B91B695AC200362852 /* Main.storyboard */,
@@ -61,7 +80,24 @@
 				F56C20BE1B695AC200362852 /* LaunchScreen.storyboard */,
 				F56C20C11B695AC200362852 /* Info.plist */,
 			);
-			path = FTMainColor;
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		F56C20D01B695B5200362852 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F56C20C71B695B2500362852 /* FTCluster.swift */,
+				F56C20C81B695B2500362852 /* FTColor.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F56C20D11B695B5A00362852 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F56C20C91B695B2500362852 /* FTColorsHelper.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +126,7 @@
 		F56C20AA1B695AC200362852 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FT;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Florent THOMAS-MOREL";
 				TargetAttributes = {
@@ -134,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56C20CB1B695B2500362852 /* FTCluster.swift in Sources */,
+				F56C20CC1B695B2500362852 /* FTColor.swift in Sources */,
+				F56C20CE1B695B2500362852 /* FTMainColor.swift in Sources */,
 				F56C20B81B695AC200362852 /* ViewController.swift in Sources */,
 				F56C20B61B695AC200362852 /* AppDelegate.swift in Sources */,
+				F56C20CD1B695B2500362852 /* FTColorsHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
