@@ -6,7 +6,6 @@ FTMainColor is a usefull Pod written in Swift to get the main color from an UIIm
 1. You just got your ```UIImageView``` with an image.
 2. Find the main color using the Pod and set your view's ```backgroundColor```
 3. Add a gradient layer on your picture to smoothly integrate your image
-4. And whatever you want juste like a label
 
 ## Install
 
@@ -21,7 +20,7 @@ use_frameworks!
 pod 'FTMainColor', :git => 'https://github.com/fthomasmorel/FTMainColor.git'
 ```
 
-Run a ```pod install``` and get the job done. You can now open the ```.xcworkspace``` project.
+Run a ```pod install``` and get the job done. You can now open the ```.xcworkspace``` file.
 
 ## Usage
 
@@ -42,7 +41,7 @@ Simply use the function ```getMainColor``` as follow :
 let color:FTColor = getMainColor(your_uiimage)
 ```
 
-Now you get a ```FTColor``` object. If you want to get the ```UIColor``` from the ```FTColor```, just use ```getUIColor()```.
+Now you get a ```FTColor``` object. If you want to get the ```UIColor``` from the ```FTColor```, just use ```getUIColor()``` on it.
 
 ### Get a gradient layer with the new color
 
@@ -65,6 +64,10 @@ imageView.layer.insertSublayer(gradient, atIndex: 0)
 self.view.backgroundColor = opaqueColor
 ```
 
-## FTMainColor
+## Issues
+I know the algorithm is not perfect :
 
-I know the algorithm is not perfect, i will try to improve as soon as possible. If you have some ideas, questions or comments, do not hesitate :) Thank you.
+- Not fast enough on big image
+- A bit random sometimes
+
+But I will try to improve it as soon as possible. If you have some ideas, questions or comments, do not hesitate :) Thank you
