@@ -49,7 +49,7 @@ Now you get a ```FTColor``` object. If you want to get the ```UIColor``` from th
 This is an example of what you can do with this Pod. Once you got the main color from your picture, you can set the backgroundColor for your view to the new color and add a gradient layer on the UIImage to get the image smoothly integrate in your view.
 
 ```swift
-let color:FTColor = getMainColor(imageView.image!, withIndice: 1500)
+let color:FTColor = getMainColor(your_uiimage)
 let opaqueColor = color.getUIColor()
 let transColor = UIColor(red: color.red, green: color.green, blue: color.blue, alpha: 0)
         
