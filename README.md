@@ -1,10 +1,7 @@
 # FTMainColor
 FTMainColor is a usefull Pod written in Swift to get the main color from an UIImage. Build awesome dynamic view from an image. Here is a step by step example :
 
-<img style="width:24%" src="img/sample0.png">
-<img style="width:24%" src="img/sample1.png">
-<img style="width:24%" src="img/sample2.png">
-<img style="width:24%" src="img/sample3.png">
+![MacDown Screenshot](img/sample.png)
 
 1. You just got your ```UIImageView``` with an image.
 2. Find the main color using the Pod and set your view's ```backgroundColor```
